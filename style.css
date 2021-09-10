@@ -47,6 +47,9 @@ a{
     padding-right: 16px;
     border: 1px solid #333;
 }
+.roW{
+    border: 1px solid rgb(247, 13, 13);
+}
 
 .row::after{
     content:'';
@@ -523,42 +526,68 @@ a{
     margin: 0 18px;
     border-bottom:8px solid #94d6d0;
 }
-
+.footer .list{
+    text-align: left;
+}
 .footer h1{
     font-size: 14px;
     line-height: 40px;
  } 
+ .footer .row{
+    display: inline-block;
+     width: 100%;
+     align-content: flex-start
+ }
+.footer .col-3-4{
+    float: left;
+    width: 75%;
+}
+.footer .col-1-4{
+    float: right;
+}
 
-.footer .list{
-    display: inline-flex;
-    justify-content: space-around;
-    border: 1px solid #000;
-    text-align: left;
+.footer ul{
+    margin-left: 40px;
+    float: left;
+    width: 200px;
 }
 .footer .list h3{
     font-size: 14px;
     padding-bottom: 26px;
     padding-top: 33px;
 }
-.footer .list-1 .list-2 .list-3{
-    border: 1px solid #000;
-}
 .footer li{
     font-size: 12px;
     height: 30px;
 }
 
-.footer .email{
+.footer .email-1{
     display: inline-block;
     text-align: left;
     font-size: 14px;
+    width: 279px;
+    border-bottom:1px solid #000;
+    padding-top: 40px;
+}
+
+.footer .col-1-4 .btn{
+    position: relative;
+    top: 37px;
+    text-align: left;
+    padding: 7px 54px;
+    border: 1px solid #000;
+    
 }
 .copyright{
     text-align: center;
+    bottom: 30px;
 }
 .copyright .location{
     float: left;
     left: 69px;
+}
+.copyright h4{
+    text-align: center;
 }
 .copyright .link .img{
     float: right;
@@ -569,4 +598,5 @@ a{
     background-position: center;
     margin-left: 30px;
     right: 69px;
+    bottom: 30px;
 }
